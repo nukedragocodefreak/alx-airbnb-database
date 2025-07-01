@@ -5,7 +5,7 @@ Apply normalization principles to ensure the relational schema is in **Third Nor
 
 ---
 
-## 💡 Normalization Overview
+## Normalization Overview
 
 **First Normal Form (1NF)**:  
 - Ensure atomic values (no repeating groups or arrays).
