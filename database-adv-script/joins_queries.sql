@@ -23,8 +23,8 @@ SELECT
     r.rating,
     r.comment,
     r.created_at
-FROM Property p
-LEFT JOIN Review r ON p.property_id = r.property_id;
+FROM Review r
+LEFT JOIN Property p  ON p.property_id = r.property_id;
 
 
 SELECT 
