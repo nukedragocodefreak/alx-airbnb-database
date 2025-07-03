@@ -26,7 +26,7 @@ SELECT
 FROM Property p
 LEFT JOIN Review r ON p.property_id = r.property_id;
 
--- For databases that support FULL OUTER JOIN
+
 SELECT 
     u.user_id,
     u.first_name,
