@@ -25,6 +25,7 @@ SELECT
     r.created_at
 FROM Review r
 LEFT JOIN Property p  ON p.property_id = r.property_id;
+ORDER BY 1 DESC;
 
 
 SELECT 
