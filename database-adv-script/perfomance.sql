@@ -31,7 +31,7 @@ FROM Booking b
 JOIN User u ON b.user_id = u.user_id
 JOIN Property p ON b.property_id = p.property_id
 JOIN Payment pay ON pay.booking_id = b.booking_id;
-WHERE  b.user_id IS NOT NULL and b.property_id IS NOT NULL
+WHERE  b.user_id IS NOT NULL AND b.property_id IS NOT NULL
 
 EXPLAIN
 SELECT 
