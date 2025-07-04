@@ -13,10 +13,7 @@ WHERE (
 
 
 SELECT 
-    u.user_id,
-    u.first_name,
-    u.last_name,
-    u.email
+   COUNT(*)
 FROM User u
 WHERE EXISTS (
     SELECT 1
